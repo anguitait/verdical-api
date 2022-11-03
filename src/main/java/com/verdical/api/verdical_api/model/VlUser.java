@@ -45,6 +45,12 @@ public class VlUser {
 	private String sentPrediction;
 	
 	private String sentBehaviour;
+	
+	private String maritalStatus;
+	
+	private String city;
+	
+	private String country;
 
 	public VlUser() {
 	}
@@ -231,6 +237,30 @@ public class VlUser {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getMaritalStatus() {
+		return maritalStatus;
+	}
+
+	public void setMaritalStatus(String maritalStatus) {
+		this.maritalStatus = maritalStatus;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
 	}
 
 	@Override
